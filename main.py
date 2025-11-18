@@ -1,7 +1,12 @@
+import stats
+
 def main():
-    with open('books/frankenstein.txt') as f:
-        file_contents = f.read()
-        print(file_contents)
+    stats.get_num_words()
+    characters = stats.count_unique_characters()
+    print(characters)
+
+    
+
 
 
 
